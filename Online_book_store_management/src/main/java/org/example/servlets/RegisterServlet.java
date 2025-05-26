@@ -13,7 +13,7 @@ public class RegisterServlet extends HttpServlet {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/online_book_store", "root", "DAV22@niet26");
+					"jdbc:mysql://localhost:3306/online_book_store", "root", "********");
 
 			PreparedStatement ps = conn.prepareStatement("INSERT INTO reader(name, email) VALUES(?, ?)");
 			ps.setString(1, name);
