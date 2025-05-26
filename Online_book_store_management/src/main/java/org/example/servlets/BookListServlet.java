@@ -44,7 +44,7 @@ public class BookListServlet extends HttpServlet {
 			Connection conn = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/online_book_store",
 					"root",
-					"DAV22@niet26"
+					"********"
 			);
 
 			// Query all books
