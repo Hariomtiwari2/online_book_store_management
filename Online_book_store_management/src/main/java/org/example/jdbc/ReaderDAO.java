@@ -5,7 +5,7 @@ import java.sql.*;
 public class ReaderDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/online_book_store";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "DAV22@niet26";
+	private String jdbcPassword = "********";
 
 	private static final String CHECK_READER_SQL = "SELECT id FROM reader WHERE name = ?";
 	private static final String INSERT_READER_SQL = "INSERT INTO reader (name, email) VALUES (?, ?)";
