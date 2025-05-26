@@ -19,7 +19,7 @@ public class MarkReadServlet extends HttpServlet {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/online_book_store", "root", "DAV22@niet26");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/online_book_store", "root", "********");
 
 			String sql = "INSERT INTO reader_books (reader_id, book_id) VALUES (?, ?)";
 
